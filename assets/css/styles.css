@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+
+body{
+    background-color: #fcf4f0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cuerpo{
+    display: table;
+    width: 75%;
+    margin: auto;
+    padding: auto;
+
+}
+
+#encabezado{
+    margin-top: -18px;
+    display: table;
+    width: 1262px;
+    height: 210px; 
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: #5c3c1c;
+    color: white;
+    font-size: 20px;
+ 
+ }
+ nav ol{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ nav ol li{
+     list-style: none;
+ 
+ }
+ 
+ nav ol li a{
+     text-decoration: none;
+     display: block;
+     padding: 18px 18px;
+     color: white;
+ }
+ 
+ nav ol li a:hover{
+     background-color: #6c5234;
+     color: aliceblue;
+ }
+ 
+
+#uno p{
+    text-align: center;
+}
+
+#dos img{
+    border-radius: 5%;
+
+}
+
+#tres{
+    margin-top: 50px;
+}
+
+#tres h1{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+#tres h3{
+    text-decoration: 1.5px solid underline #887e75;
+    
+}
+
+
+#fotos_ventajas{
+    display: flex;
+    width: 350px;
+    height: 300px;
+    padding-left: 22px ;
+}
+
+#cuatroImg{
+    margin-top: 60px;
+    background-image: url("../img/6.jpg");
+    background-repeat: no-repeat;
+    background-position: right center ; 
+}
+
+#cuatro{
+    margin-right: 380px;
+}
+
+#cuatro h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#cinco{
+    margin-top: 40px;
+}
+
+#cinco h3{
+    text-decoration: 1.5px solid underline #887e75;
+    
+}
+
+#seis{
+    margin-top: 40px;
+}
+
+#seis h2{
+    margin-top: 40px;
+}
+
+p{
+    width: 90%;
+    padding-left: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+
+h2{
+    margin-left: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+h3{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+h1{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: #D98E67;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 1.5%;
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
+
+/*CLASES USADAS */
+
+.libros{
+    display: flex;
+    margin-top: 40px;
+}
+
+.libros li{
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+.imagen-horizontal{
+    display: table;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.texto-negrita{
+    font-size: 25;  
+    font-weight: bolder;
+ }
+
+.imagen-horizontal2{
+    display: table;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+.imagen-horizontal3{
+    display: table;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+
+.imagen-vertical{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 700px;
+}
+
+.imagen-vertical2{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+}
+
+.imagen-centrada{
+ margin: auto;
+ display: table;
+}
+
+.separacion-arriba{
+    margin-top:70px ;
+}
+
+.separacion-arriba2{
+    margin-top:120px ;
+}
+
+.separacion-arriba3{
+    margin-top:40px ;
+}
+
+.borde{
+    border-radius: 15%;
+}
+
+
+
+
+
+
